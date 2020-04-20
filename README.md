@@ -8,6 +8,7 @@
 
 
 <p align="center">
+   <img src="https://github.com/bprofiro/assets/blob/master/node.png" />
 </p>
 
 <div>
