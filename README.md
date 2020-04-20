@@ -12,8 +12,10 @@
 
 <div>
   <h2> :rocket: About the challenge: </h2>
+  
+  
 
-  <p> - **`POST /transactions`**: The route must receive `title`,` value` and `type` within the body of the request, with` type` being the type of the transaction, which should be `income` for incoming (deposits) and` outcome` for exiting (withdrawn) . When registering a new transaction, it will be stored inside an object with the format like the following:
+  - **`POST /transactions`**: The route must receive `title`,` value` and `type` within the body of the request, with` type` being the type of the transaction, which should be `income` for incoming (deposits) and` outcome` for exiting (withdrawn) . When registering a new transaction, it will be stored inside an object with the format like the following:
 
 ```json
 {
@@ -60,7 +62,7 @@
     "total": 800
   }
 }
-``` </p>
+```
 </div>
 
 <div>
