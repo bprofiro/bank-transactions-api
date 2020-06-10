@@ -68,5 +68,5 @@
 
 <div>
   <h2> :computer: Tecnologias: </h2>
-  <p> Esse projeto foi construído em [Node.js](https://nodejs.org/en/) e não guarda as informações dentro de um banco de dados. </p>
+  <p> Esse projeto foi construído em Node.js e não guarda as informações dentro de um banco de dados. </p>
 </div>
