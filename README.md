@@ -3,7 +3,7 @@
  </div>
  
 <h3 align="center">
-  Challenge 02: First Node.js project
+  API de Transações Bancárias com Node.JS
 </h3>
 
 
@@ -12,11 +12,11 @@
 </p>
 
 <div>
-  <h2> :rocket: About the challenge: </h2>
+  <h2> :rocket: Rotas da API: </h2>
   
   
 
-  - **`POST /transactions`**: The route must receive `title`,` value` and `type` within the body of the request, with` type` being the type of the transaction, which should be `income` for incoming (deposits) and` outcome` for exiting (withdrawn) . When registering a new transaction, it will be stored inside an object with the format like the following:
+  - **`POST /transactions`**: A rota deve receber `title`,` value` e `type` dentro do corpo da solicitação, com` type` sendo o tipo da transação, que deve ser `income` para entrada (depósitos) e `outcome` para sair (retirado). Ao registrar uma nova transação, ela será armazenada dentro de um objeto com o formato da seguinte forma:
 
 ```json
 {
@@ -27,7 +27,7 @@
 }
 ```
 
-- **`GET /transactions`**: This route will return a listing with all the transactions you have registered so far, together with the sum of the entries, withdrawals and total credit. This route will return an object with the following format:
+- **`GET /transactions`**: Essa rota retornará uma listagem com todas as transações que você registrou até o momento, juntamente com a soma das entradas, saques e crédito total. Esta rota retornará um objeto com o seguinte formato:
 
 ```json
 {
@@ -67,9 +67,6 @@
 </div>
 
 <div>
-  <h2> :computer: Techs: </h2>
-   <p> This project was built in just one language: JavaScript, using the following technologies:
-
-   -   [Node.js](https://nodejs.org/en/)
-  </p>
+  <h2> :computer: Tecnologias: </h2>
+  <p> Esse projeto foi construído em [Node.js](https://nodejs.org/en/) e não guarda as informações dentro de um banco de dados. </p>
 </div>
